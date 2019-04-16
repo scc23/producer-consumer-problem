@@ -1,9 +1,9 @@
-# producer-consumer-problem
+# Producer-Consumer (Bounded-Buffer) Problem
 Developed a multithreaded program in C using POSIX Threads and semaphores to solve the producer-consumer problem. Implemented and tested various mechanisms in producer and consumer thread functions to avoid deadlock.
 
 Press 'p' to pause, and 'r' to resume execution of program.
 
-The problem statement is as follows:
+## The problem statement is as follows:
 - There are 3 generators, each producing a unique material
 - Materials are stored in an input buffer with size 10 before forwarded to operators
 - There are 3 operators with same priority and are responsible for producing products based on materials
